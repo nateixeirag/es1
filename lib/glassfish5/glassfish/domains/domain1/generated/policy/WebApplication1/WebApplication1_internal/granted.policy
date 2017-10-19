@@ -1,0 +1,51 @@
+/* AUTOMATICALLY GENERATED ON Wed Oct 18 06:37:35 BRST 2017*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "NewSessionBean", "businessMethod,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "BairroFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "PaisFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RuaFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CidadeFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EstadoFacade", "find,Local,java.lang.Object";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "NewSessionBean", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "PaisFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "EstadoFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CidadeFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "BairroFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "RuaFacade", "**";
+};
+
